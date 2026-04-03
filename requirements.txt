@@ -1,0 +1,4 @@
+# The platform core is pure standard library (math, random, re, dataclasses).
+# Real grounding judges plug in behind the SupportChecker / Embedder protocols:
+# sentence-transformers>=3.0   # dense embeddings for answer relevance
+# openai>=1.0                  # LLM-as-judge faithfulness / NLI
